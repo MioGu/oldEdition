@@ -1,0 +1,157 @@
+
+.foot{
+    height: 568px;
+    background-color: #eaeaea;
+}
+.foot .foot_top{
+    height: 102px;
+    border-bottom:1px solid #dedede;
+}
+
+.foot .foot_top .w ul li{
+    float: left;
+    height: 102px;
+    line-height: 102px;
+    margin-left: 36px;
+    margin-right: 46px;
+}
+.foot .foot_top .w ul li h5{
+    float: left;
+    width: 36px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 30px;
+    text-indent: -999px;
+    overflow: hidden;
+}
+.foot .foot_top .w ul li:nth-child(1) h5{
+    background: url(../img/ico_service.png) no-repeat 0 0;
+}
+.foot .foot_top .w ul li:nth-child(2) h5{
+    background: url(../img/ico_service.png) no-repeat 0 -43px;
+}
+.foot .foot_top .w ul li:nth-child(3) h5{
+    background: url(../img/ico_service.png) no-repeat 0 -86px;
+}
+.foot .foot_top .w ul li:nth-child(4) h5{
+    background: url(../img/ico_service.png) no-repeat 0 -129px;
+}
+.foot .foot_top .w ul li span{
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    color: #444444;
+    margin-left: 10px;
+}
+
+.foot .service .w{
+    margin-top: 26px;
+    height: 174px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.foot .service .w dl{
+    float: left;
+    width: 198px;
+}
+.foot .service .w dl dt{
+    font-size: 13px;
+    color: #666666;
+    font-weight: bold;
+    margin-bottom: 15px;
+    height: 13px;
+    line-height: 13px;
+}
+.foot .service .w dl dd {
+    margin-bottom: 11px;
+    height: 11px;
+    line-height: 11px;
+}
+.foot .service .w dl dd a{
+    font-size: 11px;
+    color: #666666;
+}
+.foot .service .w dl dd a:hover{
+    color: #C81623;
+}
+
+.foot .service .w .map{
+    width: 200px;
+    height: 150px;
+    background: url(../img/ico_footer.png) no-repeat 0 0;
+}
+.foot .service .w .map h5{
+    color: #666666;
+    text-align: center;
+}
+.foot .service .w .map p{
+    line-height: 18px;
+    width: 170px;
+    margin-left: 10px;
+    color: #666666;
+    margin-top: 19px;
+}
+.foot .service .w .map a{
+    color: #666666;
+}
+.foot .service .w .map a:hover{
+    color: #C81623;
+}
+
+.foot .foot_bottom p{
+    text-align: center;
+    font:11px/11px "微软雅黑";
+}
+.foot .foot_bottom p:nth-child(1) a{
+    color: #666666;
+    font-size: 11px;
+}
+.foot .foot_bottom p span{
+    color: #ccd4dc;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.foot .foot_bottom p:nth-child(1){
+    margin-top: 19px;
+    margin-bottom: 17px;
+}
+.foot .foot_bottom p:nth-child(2){
+    margin-bottom: 10px;
+}
+.foot .foot_bottom p:nth-child(3){
+    margin-bottom: 10px;
+}
+.foot .foot_bottom p:nth-child(4){
+    margin-bottom: 10px;
+}
+.foot .foot_bottom p:nth-child(5){
+    margin-bottom: 10px;
+}
+.foot .foot_bottom p.pic a{
+    display: block;
+    float: left;
+    width: 103px;
+    height: 32px;
+}
+.foot .foot_bottom p.pic a:nth-child(1){
+    background:url(../img/ico_footer.png) no-repeat 0 -150px;
+}
+.foot .foot_bottom p.pic a:nth-child(2){
+    background:url(../img/ico_footer.png) no-repeat -103px -150px;
+}
+.foot .foot_bottom p.pic a:nth-child(3){
+    background:url(../img/ico_footer.png) no-repeat 0 -183px;
+}
+.foot .foot_bottom p.pic a:nth-child(4){
+    background:url(../img/ico_footer.png) no-repeat -103px -183px;
+}
+.foot .foot_bottom p.pic a:nth-child(5){
+    background:url(../img/ico_footer.png) no-repeat 0 -217px;
+}
+.foot .foot_bottom p.pic a:nth-child(6){
+    background:url(../img/ico_footer.png) no-repeat -103px -217px;
+}
+.foot .foot_bottom p.pic {
+    width: 618px;
+    margin:0 auto;
+}

@@ -1,0 +1,243 @@
+/*顶部广告横幅*/
+.top_banner{
+	height: 80px;
+	background-color: #d32338;
+	z-index: 3;
+	position: relative;
+}
+.top_banner .w{
+	position: relative;
+}
+.top_banner .w a{
+	height: 80px;
+	width: 1190px;
+}
+.top_banner .w .close{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: rgba(0,0,0,0.3);
+	color: rgba(255,255,255,0.3);
+	font-size: 16px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	line-height: 20px;
+	text-align: center;
+}
+.top_banner .w .close:hover{
+	background-color: rgba(0,0,0,0.8);
+	color: rgba(255,255,255,0.8);
+}
+
+
+/*顶部导航栏*/
+.top_nav{
+	background-color: #e3e4e5;
+	height:30px;
+	color: #999;
+	border-bottom:1px solid #ddd;
+}
+.top_nav .w .fl li{
+	line-height: 30px;
+	margin-left: 200px;
+	width: 58px;
+	text-align: center;
+}
+.top_nav .w .fl li:hover{      /*利用相对浮动使得增加边框1px像素后  元素内容位置保持不变*/
+	background-color: white;
+	position: relative;
+	left: -1px;
+	border:1px solid #ddd;
+	border-bottom: none;
+	line-height: 29px;
+	height: 30px;
+}
+.top_nav .w .fl li i.iconfont{
+	color: #f10215;
+}
+
+.top_nav .w .fr li{
+	float: left;
+	line-height: 30px;
+	padding:0 6px;
+}
+.top_nav .w .fr li i.iconfont{
+	font-size: 9px;
+}
+.top_nav .w .fr li .red{
+	color: red;
+}
+.top_nav .w .fr li.public{  /*提前设置隐性边框*/
+	border:1px solid #e3e4e5;
+	border-bottom: none;
+	height: 29px;
+	line-height: 29px;
+}
+.top_nav .w .fr li.public:hover{  /*增加边框后  元素内容位置不变*/
+	background-color: white;
+	border:1px solid #ddd;
+	border-bottom: none;
+	height: 30px;
+}
+
+.top_nav .w .fr li a:hover{
+	color: #f10215;
+}
+.top_nav .w .fr .line{
+	width: 1px;
+	height: 10px;
+	background-color: #cccccc;
+	margin: 11px 6px 0;
+	padding:0;
+}
+.top_nav .w .fr .trangle{
+	position: relative;
+}
+.top_nav .w .fr .trangle:after{
+	content: " ";
+	display: block;
+	width: 0;
+	height:0;
+	border:8px solid transparent;
+	border-bottom: 8px solid white;
+	position: absolute;
+	top: 18px;
+	left: 22px;
+}
+.top_nav .w .fr .trangle .qrcode{
+	position: absolute;
+	display: block;
+	padding: 4px;
+	width: 50px;
+	height: 50px;
+	border:1px solid #cfcfcf;
+	background-color: #f6f6f6;
+	left:0;
+}
+
+
+
+/*顶部搜索栏*/
+.top_search {
+	height: 140px;
+	background-color: #f6f6f6;
+}
+.top_search .w{
+	position: relative;
+	height: 140px;
+}
+.top_search .w .logo{
+	width: 190px;
+	height: 170px;
+	position: absolute;
+	top: -30px;
+}
+.top_search .w .logo img{
+	box-shadow: 0 -12px 40px rgba(0,0,0,.3);
+}
+.top_search .w .search{
+	width: 548px;
+	height: 33px;
+	border:1px solid #f10215;
+	margin-left: 320px;
+	margin-top: 25px;
+	position: relative;
+}
+.top_search .w .search .text1{
+	width: 499px;
+	height: 33px;
+	border: 0px;
+	text-indent: 4px;
+}
+.top_search .w .search .btn{
+	width: 49px;
+	height: 33px;
+	border: 0px;
+	background-color: #f10215;
+	cursor: pointer;
+}
+.top_search .w .search .iconfont{
+	position: absolute;
+	top: 2px;
+	right: 9px;
+	color: white;
+	font-size: 28px;
+}
+
+.top_search .w .shopcart{
+	width: 188px;
+	height: 33px;
+	border:1px solid #e3e4e5;
+	margin-top: 25px;
+	margin-left: 35px;
+	background-color: #fff;
+	line-height: 33px;
+	text-align: center;
+	color: #f10214;
+	position: relative;
+}
+.top_search .w .shopcart em{
+	font-style: normal;
+	display: block;
+	height: 14px;
+	width: 14px;
+	background-color: #f10214;
+	line-height: 14px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 9px;
+	position: absolute;
+	top: 5px;
+	right:34px;
+}
+.top_search .w .hotwords ul{
+	margin-left: 320px;
+}
+.top_search .w .hotwords ul li{
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	font: 11px/11px "微软雅黑";
+}
+.top_search .w .hotwords ul li a:hover{
+	color: #f10215;
+}
+.top_search .w .hotwords ul .hot{
+	color: #f10215;
+}
+.top_search .w .main_nav{
+	margin-left: 230px;
+	margin-top: 32px;
+	font:16px/16px "微软雅黑";
+}
+.top_search .w .main_nav ul li{
+	float: left;
+	margin-right: 30px;
+}
+.top_search .w .main_nav ul li a{
+	font-size: 16px;
+	font-weight:600;
+	color: #555;
+}
+.top_search .w .main_nav ul li a:hover{
+	color: #f10215;
+}
+.top_search .w .main_nav ul li.line{
+	background-color: #ccc;
+	width: 1px;
+	height: 10px;
+	margin-left: -10px;
+	margin-right: 20px;
+	margin-top: 3px;
+}
+
+.small_ad a {
+	width: 190px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	right: 0px;
+	bottom: 13px;
+}
+
